@@ -29,7 +29,7 @@ export class MskStack extends cdk.Stack {
         super(scope, id, props);
         this.createVPC();
         this.createMSKCluster();
-        this.provisionTopicLambda();
+        //this.provisionTopicLambda();
 
    }
     
